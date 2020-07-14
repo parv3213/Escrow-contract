@@ -15,7 +15,7 @@ contract Escrow{
     address payable public buyer;
     address payable public seller;
     bool public buyerDispulte  = false;
-    uint public judgeFee = 0; //private
+    uint judgeFee = 0; 
     uint public buyerTimestamp; 
     uint public disputeTime = 30 * 1 seconds;
     bool public buyerPaid = false;
